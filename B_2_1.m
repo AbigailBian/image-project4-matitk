@@ -10,8 +10,8 @@ filename2 = 'Blue0001.tif';
 % To segment each image, comment / uncomment the target image line and 
 % choose its relative segmentation section below.
 
-%I = double(imread(filename1));
-I = double(imread(filename2));
+I = double(imread(filename1));
+% I = double(imread(filename2));
 
 size1 = size(I);
 
